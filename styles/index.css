@@ -1,0 +1,164 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+ 
+
+.welcome-section {
+    position: relative;
+    width: 100%;
+    height: 100vh; /* Full viewport height */
+    display: flex;
+    justify-content: center; /* Centers content horizontally */
+    align-items: top; /* Centers content vertically */
+    text-align: center;
+    overflow: hidden; /* Ensures image doesn't overflow */
+}
+
+.background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the image covers the whole section */
+    z-index: 0; /* Ensures the image is behind the text */
+}
+
+.overlay {
+    position: relative;
+    z-index: 1; /* Ensures text is above the image */
+    color: rgb(28, 16, 16); /* White text color for better readability */
+}
+
+.welcome-section h1 {
+    font-size: 2.5rem;
+}
+
+.welcome-section p {
+    font-size: 1.2rem;
+    color: #6a5c5c; /* Ensures text color is white */
+}
+
+/* Navbar Styles */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin: 0 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+ 
+ /* Grid Container Styles */
+ .grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 2rem;
+  }
+
+/* Card Styles */
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 2rem;
+
+}
+.card {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+
+.card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card h3 {
+    padding: 10px;
+    margin: 0;
+}
+
+.card p {
+    padding: 10px;
+    margin: 0;
+    flex-grow: 1;
+}
+
+.card .buttons {
+    display: flex;
+    justify-content: center;
+    padding: 1px;
+}
+
+ /* Button styles */
+.btn {
+    display: inline-block;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    background-color: #8199b1;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin: 10px;
+}
+
+.btn a {
+    color: white;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+
+
+ 
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+.card {
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+p    {
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+ 

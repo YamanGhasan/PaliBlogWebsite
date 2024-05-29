@@ -1,0 +1,102 @@
+ 
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
+p    {
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin: 0 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.card-container {
+    display: grid;
+     gap: 20px;
+    padding: 20px;
+}
+
+.card {
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.Author {
+    width: 50px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 10px;
+}
+
+.city {
+
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+    }
+
+
+.card h3 {
+    margin: 0;
+}
+
+.card p {
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+.social-sharing {
+     display: flex;
+    justify-content: center;
+    padding: 1px;
+}
+
+.social-sharing a {
+    display: inline-block;
+    margin-right: 10px;
+    padding: 8px 16px;
+    border-radius: 4px;
+    background-color: #8199b1;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    transition: background-color 0.3s;
+    margin: 10px;
+
+}
+
+.social-sharing a:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
